@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+/include/ "msm8952.dtsi"
+
+/ {
+    // This is used by the bootloader to find the correct DTB
+	qcom,msm-id = <264 0x0>;
+	qcom,board-id = <106 0>;
+
+    model = "Qualcomm Technologies, Inc.ZTE MSM8952 URD";
+    compatible = "zte,urd", "qcom,msm8952", "lk2nd,device";
+};
